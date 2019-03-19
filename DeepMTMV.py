@@ -109,7 +109,7 @@ def train_model(model, train_loader, max_epochs):
 if __name__=="__main__":
     parser = argparse.ArgumentParser(description='DeepMTMV')
     parser.add_argument('-n', dest='name', type=str, default='text', help='which dataset is used for demo')
-    parser.add_argument('-d', dest='dir', type=str, default='C:/Users/leo/Dropbox/1dCNN/data/webkb', help='The directory of the webkb dataset')
+    parser.add_argument('-d', dest='dir', type=str, default='./data/webkb', help='The directory of the webkb dataset')
     parser.add_argument('-g', dest='gpu', type=int, default=0, help='the index of the gpu to use')
     parser.add_argument('-m', dest='model', type=str, default=None, help='the name of the pre-trained model')
     parser.add_argument('-s', dest='num', type=int, default=8000, help='the size of training data set')
