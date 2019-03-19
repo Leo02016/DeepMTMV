@@ -6,7 +6,7 @@
 * This project develops Deep-MTMV algorithm dealing with the multi-view multi-task classification problem.
 
 # Dataset
-* Webkb dataset can be download from the following link:
+* Webkb dataset can be downloaded from the following link:
 http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-20/www/data/
 * Please extract webkb dataset in ./DeepMTMV-master/data/
 
