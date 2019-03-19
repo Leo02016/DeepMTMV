@@ -19,3 +19,6 @@ http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-20/www/data/
 * -g: Specify the index of GPU to use if there are multiple GPUs. The default is 0;
 * -d: Specify the directory of the Webkb dataset;
 * -s: Specify the number of sample used during the training;
+
+# Note:
+* The code requires the execution of Word2vec embedding, so Linux system or Mac OS is recommended.
