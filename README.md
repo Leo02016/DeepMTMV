@@ -8,7 +8,7 @@
 # Dataset
 * Webkb dataset can be download from the following link:
 http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-20/www/data/
-* Please extract webkb dataset in ./DeepMTMV/data/
+* Please extract webkb dataset in ./DeepMTMV-master/data/
 
 # To run the code:
 * The code is written under python 3.6 with Pytorch framework and it could be ran by executing the following command:
