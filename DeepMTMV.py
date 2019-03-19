@@ -11,7 +11,7 @@ from sklearn.metrics import f1_score
 
 def main(args):
     # # Device configuration
-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda:{}'.format(args.gpu) if torch.cuda.is_available() else 'cpu')
     num_epochs = 80
     num_classes = 8
     learning_rate = 0.08
