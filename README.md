@@ -12,7 +12,7 @@ http://www.cs.cmu.edu/afs/cs.cmu.edu/project/theo-20/www/data/
 
 # To run the code:
 * The code is written under python 3.6 with Pytorch framework and it could be ran by executing the following command:
-* python DeepMTMV.py -d $the directory of the Webkb dataset$
+* python DeepMTMV.py
 
 
 # Important Flags in the python scripts:
